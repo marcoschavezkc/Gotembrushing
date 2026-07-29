@@ -806,6 +806,6 @@ button { font-family: inherit; cursor: pointer; }
   .hero-photo-stack { inset: 0; background: var(--navy); }
   .house-photo { object-fit: cover; object-position: center 32%; }
   .hero-scrim { background: linear-gradient(180deg, rgba(10,28,58,.25) 0%, rgba(10,28,58,.45) 55%, rgba(10,28,58,.92) 100%); }
-  .paint-swatch-panel { left: 20px; right: 20px; top: auto; bottom: 84px; flex-direction: row; align-items: center; justify-content: space-between; min-width: 0; padding: 12px 16px; }
-  .scroll-cue { bottom: 18px; }
+  .paint-swatch-panel { left: 20px; right: 20px; top: auto; bottom: 130px; flex-direction: row; align-items: center; justify-content: space-between; min-width: 0; padding: 12px 16px; }
+  .scroll-cue { bottom: 20px; }
 }
