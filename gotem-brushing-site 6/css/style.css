@@ -352,6 +352,10 @@ button { font-family: inherit; cursor: pointer; }
   0%, 100% { transform: translate(-50%, 0); }
   50% { transform: translate(-50%, 8px); }
 }
+@keyframes heroBounceStatic {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .hero-scroll { height: 100vh !important; }
@@ -798,10 +802,10 @@ button { font-family: inherit; cursor: pointer; }
   .mobile-call-bar { display: block; }
   body { padding-bottom: 76px; }
   .hero-scroll { height: 220vh; }
-  .hero-pin { height: 68vh; min-height: 500px; }
+  .hero-pin { height: 68vh; min-height: 560px; flex-direction: column; justify-content: flex-end; gap: 26px; padding-bottom: 36px; }
   .hero-photo-stack { inset: 0; background: var(--navy); }
   .house-photo { object-fit: cover; object-position: center 32%; }
   .hero-scrim { background: linear-gradient(180deg, rgba(10,28,58,.25) 0%, rgba(10,28,58,.45) 55%, rgba(10,28,58,.92) 100%); }
-  .paint-swatch-panel { left: 20px; right: 20px; top: auto; bottom: 68px; flex-direction: row; align-items: center; justify-content: space-between; min-width: 0; padding: 12px 16px; }
-  .scroll-cue { bottom: 16px; }
+  .paint-swatch-panel { position: static; width: calc(100% - 40px); flex-direction: row; align-items: center; justify-content: space-between; min-width: 0; padding: 12px 16px; }
+  .scroll-cue { position: static; left: auto; transform: none; animation-name: heroBounceStatic; }
 }
