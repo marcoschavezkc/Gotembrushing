@@ -802,10 +802,10 @@ button { font-family: inherit; cursor: pointer; }
   .mobile-call-bar { display: block; }
   body { padding-bottom: 76px; }
   .hero-scroll { height: 220vh; }
-  .hero-pin { height: 68vh; min-height: 620px; align-items: flex-start; padding-top: 76px; }
+  .hero-pin { height: 72vh; min-height: 700px; align-items: flex-start; padding-top: 76px; }
   .hero-photo-stack { inset: 0; background: var(--navy); }
   .house-photo { object-fit: cover; object-position: center 32%; }
   .hero-scrim { background: linear-gradient(180deg, rgba(10,28,58,.25) 0%, rgba(10,28,58,.45) 55%, rgba(10,28,58,.92) 100%); }
-  .paint-swatch-panel { left: 20px; right: 20px; top: 380px; bottom: auto; flex-direction: row; align-items: center; justify-content: space-between; min-width: 0; padding: 12px 16px; }
+  .paint-swatch-panel { left: 20px; right: 20px; top: 480px; bottom: auto; flex-direction: row; align-items: center; justify-content: space-between; min-width: 0; padding: 12px 16px; }
   .scroll-cue { bottom: 20px; }
 }
